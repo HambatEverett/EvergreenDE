@@ -1,0 +1,15 @@
+local x, y = term.getSize()
+term.clear()
+term.setCursorPos(1,1)
+term.setBackgroundColor(colors.lightGray)
+term.setTextColor(colors.lightGray)
+for i = 1, x do
+  print("#")
+end
+term.setCursorPos(math.floor(x/2) - 6, 1)
+term.setTextColor(colors.black)
+print("EverGreen DE")
+term.setTextColor(colors.white)
+term.setBackgroundColor(colors.black)
+term.setCursorPos(1,2)
+print("sorry there isnt much right now. working on a shell program")
